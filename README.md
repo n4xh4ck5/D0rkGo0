@@ -10,7 +10,7 @@ Review the python dependencies in requeriments.txt
 python dorkgoo.py -h
 usage: dorkgoo.py [-h] -d DOMAIN -n SEARCH [-o OUTPUT] [-l LANGUAGE]
 
-This script searchs files indexed in the main searches of a domain to detect a possible leak information
+Tool to enumerate subdomains using hacking with search engines, mainly Google
 
 optional arguments:
   -h, --help            show this help message and exit
