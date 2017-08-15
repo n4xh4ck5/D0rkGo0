@@ -147,7 +147,7 @@ def ShowResults(newlist,target,output,export,catpcha):
 		#Only it can enter if -j is put in the execution
 		ExportResults(newlist,export,direction_ip)
 #MAIN
-parser = argparse.ArgumentParser(description="This script searchs files indexed in the main searches of a domain to detect a possible leak information", formatter_class=RawTextHelpFormatter)
+parser = argparse.ArgumentParser(description="Tool to enumerate subdomains using hacking with search engines, mainly Google", formatter_class=RawTextHelpFormatter)
 parser.add_argument('-d','--domain', help="The domain which it wants to search",required=True)
 parser.add_argument('-n','--search', help="Indicate the number of the search which you want to do",required=True)
 parser.add_argument('-o','--output', help="Export the results in a file (Y/N)\n Format available:\n\t1.json\n\t2.xlsx", required=False)
