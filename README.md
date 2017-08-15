@@ -4,7 +4,7 @@ Tool to enumerate subdomains using hacking with search engines, mainly Google
 # Install
 Review the python dependencies in requeriments.txt
 
-#Use
+# Use
 
 <pre>
 python dorkgoo.py -h
